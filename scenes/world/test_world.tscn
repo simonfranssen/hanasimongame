@@ -1,5 +1,10 @@
 [gd_scene format=3 uid="uid://b0le5r0kh4aoo"]
 
+[ext_resource type="Texture2D" uid="uid://boogd4621fr4u" path="res://assets/egg.jpg" id="1_tjl6x"]
+
 [node name="Node2D" type="Node2D" unique_id=780900812]
 
 [node name="Node" type="Node" parent="." unique_id=460301919]
+
+[node name="Sprite2D" type="Sprite2D" parent="Node" unique_id=1749259045]
+texture = ExtResource("1_tjl6x")
